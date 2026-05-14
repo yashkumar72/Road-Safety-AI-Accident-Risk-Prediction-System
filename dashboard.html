@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Road Safety Statistics</title>
+
+<link rel="stylesheet" href="../../css/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e293b,#7c2d12);
+color:white;
+}
+
+.hero{
+text-align:center;
+padding:40px 20px 20px 20px;
+}
+
+.hero p{
+max-width:800px;
+margin:auto;
+opacity:0.9;
+}
+
+.chart-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+padding:40px;
+}
+
+.chart-card{
+background:#f8fafc;
+width:420px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+color:black;
+text-align:center;
+}
+
+.chart-card h3{
+margin-bottom:15px;
+color:#2563eb;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<a href="index.html">Home</a> <a href="predict.html">Predict Risk</a> <a href="safety.html">Safety Tips</a> <a href="prevention.html">Prevention</a> <a href="dashboard.html">Dashboard</a> <a href="alerts.html">High Risk Zones</a> <a href="about.html">About</a>
+
+</div>
+
+<div class="hero">
+
+<h1>📊 Road Accident Statistics</h1>
+
+<p>
+This analytics dashboard visualizes accident risk patterns based on driving conditions,
+time of day, weather, and traffic behavior. These insights help understand when and why
+road accidents are more likely to happen.
+</p>
+
+</div>
+
+<div class="chart-container">
+
+<div class="chart-card">
+<h3>Accident Risk Distribution</h3>
+<canvas id="riskChart"></canvas>
+</div>
+
+<div class="chart-card">
+<h3>Accidents by Time of Day</h3>
+<canvas id="timeChart"></canvas>
+</div>
+
+<div class="chart-card">
+<h3>Weather Impact on Accidents</h3>
+<canvas id="weatherChart"></canvas>
+</div>
+
+<div class="chart-card">
+<h3>Day vs Night Accident Risk</h3>
+<canvas id="dayNightChart"></canvas>
+</div>
+
+<div class="chart-card">
+<h3>Traffic Density Impact</h3>
+<canvas id="trafficChart"></canvas>
+</div>
+
+<div class="chart-card">
+<h3>Top Risk Locations</h3>
+<canvas id="locationChart"></canvas>
+</div>
+
+</div>
+
+<script>
+
+/* Risk Distribution */
+
+new Chart(document.getElementById("riskChart"),{
+type:"pie",
+data:{
+labels:["Low Risk","Medium Risk","High Risk"],
+datasets:[{
+data:[40,35,25],
+backgroundColor:["#3b82f6","#f97316","#ef4444"]
+}]
+}
+})
+
+/* Time of Day */
+
+new Chart(document.getElementById("timeChart"),{
+type:"bar",
+data:{
+labels:["Morning","Afternoon","Evening","Night"],
+datasets:[{
+label:"Accidents",
+data:[15,25,30,40],
+backgroundColor:"#3b82f6"
+}]
+}
+})
+
+/* Weather */
+
+new Chart(document.getElementById("weatherChart"),{
+type:"pie",
+data:{
+labels:["Clear Weather","Rain","Fog"],
+datasets:[{
+data:[55,30,15],
+backgroundColor:["#22c55e","#3b82f6","#9ca3af"]
+}]
+}
+})
+
+/* Day Night */
+
+new Chart(document.getElementById("dayNightChart"),{
+type:"doughnut",
+data:{
+labels:["Day","Night"],
+datasets:[{
+data:[45,55],
+backgroundColor:["#facc15","#1e3a8a"]
+}]
+}
+})
+
+/* Traffic Density */
+
+new Chart(document.getElementById("trafficChart"),{
+type:"bar",
+data:{
+labels:["Low Traffic","Medium Traffic","High Traffic"],
+datasets:[{
+label:"Accident Probability",
+data:[20,45,70],
+backgroundColor:"#ef4444"
+}]
+}
+})
+
+/* Location Risk */
+
+new Chart(document.getElementById("locationChart"),{
+type:"bar",
+data:{
+labels:["Highways","City Roads","Rural Roads"],
+datasets:[{
+label:"Accident Rate",
+data:[60,50,25],
+backgroundColor:"#6366f1"
+}]
+}
+})
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#1d2671,#c33764);
+min-height:100vh;
+color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+width:100%;
+background:#0f172a;
+padding:15px;
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+font-size:16px;
+padding:8px 15px;
+border-radius:5px;
+transition:0.3s;
+}
+
+.navbar a:hover
+
+.navbar .active{
+background:#2563eb;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+/* BUTTONS */
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#2563eb;
+color:white;
+border-radius:6px;
+text-decoration:none;
+margin:10px;
+transition:0.3s;
+}
+
+.btn:hover
+
+/* CARD */
+
+.container{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
+}
+
+.card{
+background:white;
+color:black;
+padding:30px;
+border-radius:10px;
+width:400px;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card label{
+font-weight:bold;
+display:block;
+margin-top:10px;
+}
+
+.card input,
+.card select{
+width:100%;
+padding:8px;
+margin-top:5px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.card button{
+width:100%;
+margin-top:20px;
+padding:10px;
+border:none;
+background:#2563eb;
+color:white;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+.card button:hover
+
+#result{
+margin-top:20px;
+font-size:20px;
+text-align:center;
+color:#2563eb;
+}

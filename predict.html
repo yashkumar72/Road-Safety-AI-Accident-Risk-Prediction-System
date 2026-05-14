@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Accident Risk Prediction</title>
+
+<link rel="stylesheet" href="../../css/style.css">
+
+<style>
+
+/* PAGE BACKGROUND */
+
+.predict-page{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:60px;
+padding:40px;
+
+background:
+linear-gradient(135deg,#0f172a,#1e293b,#7c2d12);
+}
+
+/* LEFT INFO SECTION */
+
+.predict-info{
+width:400px;
+color:white;
+}
+
+.predict-info h2{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.predict-info p{
+line-height:1.6;
+color:#cbd5f5;
+margin-bottom:20px;
+}
+
+.predict-info img{
+width:100%;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* FORM CARD */
+
+.predict-card{
+
+background:#f8fafc;
+color:#111827;
+
+width:360px;
+padding:30px;
+
+border-radius:14px;
+
+box-shadow:0 20px 40px rgba(0,0,0,0.5);
+
+}
+
+.predict-card h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+/* INPUTS */
+
+.predict-card input,
+.predict-card select{
+
+width:100%;
+padding:10px;
+margin-bottom:12px;
+
+border-radius:6px;
+border:1px solid #d1d5db;
+
+font-size:14px;
+}
+
+/* BUTTON */
+
+.predict-card button{
+
+width:100%;
+padding:12px;
+
+background:#2563eb;
+color:white;
+
+border:none;
+border-radius:8px;
+
+font-size:16px;
+font-weight:600;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+.predict-card button:hover{
+background:#1d4ed8;
+}
+
+/* RESULT */
+
+#result{
+margin-top:15px;
+text-align:center;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<a href="index.html">Home</a> <a href="predict.html">Predict Risk</a> <a href="safety.html">Safety Tips</a> <a href="prevention.html">Prevention</a> <a href="dashboard.html">Dashboard</a> <a href="alerts.html">High Risk Zones</a> <a href="about.html">About</a>
+
+</div>
+
+<div class="predict-page">
+
+<!-- LEFT SIDE -->
+
+<div class="predict-info">
+
+<h2>AI Accident Prediction</h2>
+
+<p>
+This AI system analyzes driving conditions such as location, time, weather, and traffic patterns to estimate accident risk levels.
+The goal is to identify high-risk situations early and improve road safety awareness.
+</p>
+
+<img src="https://lh7-us.googleusercontent.com/Gmwit0B2hOAjpgMWINrNg5pXWZ_cM5LZ_2-SP-lulNtPYv1OrKwyxpXqPl6EWfZle_7YV9J8DZqqd1PCugWS2wr9kZ5nr2--gzeI6X_aaCmapaAAXLgraK3vZtM5aig5xTf1AYiQarMWISSfgYK9B-s">
+
+</div>
+
+<!-- RIGHT SIDE FORM -->
+
+<div class="predict-card">
+
+<h2>🚦 Accident Risk Prediction</h2>
+
+<label>Country</label> <input type="te
+xt" value="India" disabled>
+
+<label>State</label> <select id="state">
+
+<option>Gujarat</option>
+<option>Maharashtra</option>
+<option>Rajasthan</option>
+<option>Karnataka</option>
+</select>
+
+<label>City</label> <select id="city"></select>
+
+<label>Area</label> <select id="area"></select>
+
+<label>Time</label> <input id="time" placeholder="Example: 10">
+
+<label>Day or Night</label> <select id="daynight">
+
+<option>Day</option>
+<option>Night</option>
+</select>
+
+<label>Rain</label> <select id="rain">
+
+<option>No</option>
+<option>Yes</option>
+</select>
+
+<button onclick="predictRisk()">Predict Risk</button>
+
+<div id="result"></div>
+
+</div>
+
+</div>
+
+<script src="../../js/prediction.js"></script>
+
+</body>
+
+</html>

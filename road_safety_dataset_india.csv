@@ -1,0 +1,151 @@
+Country,State,City,Area,Time,DayNight,Rain,Risk
+India,Maharashtra,Mumbai,Powai,9 PM,Night,No,Medium
+India,Rajasthan,Jaipur,Mansarovar,1 AM,Night,Yes,High
+India,Gujarat,Vadodara,Alkapuri,6 PM,Night,Yes,High
+India,Gujarat,Vadodara,Manjalpur,12 PM,Night,Yes,High
+India,Gujarat,Ahmedabad,Navrangpura,9 PM,Day,Yes,Medium
+India,Rajasthan,Udaipur,Hiran Magri,1 AM,Day,Yes,Medium
+India,Maharashtra,Pune,Kothrud,3 PM,Night,No,Medium
+India,Madhya Pradesh,Indore,Rajendra Nagar,1 AM,Day,Yes,Medium
+India,Madhya Pradesh,Indore,Rajendra Nagar,12 PM,Night,Yes,High
+India,Rajasthan,Jaipur,Mansarovar,6 AM,Night,No,Medium
+India,Maharashtra,Mumbai,Bandra,9 PM,Day,Yes,Medium
+India,Madhya Pradesh,Indore,Rajendra Nagar,11 PM,Night,No,Medium
+India,Rajasthan,Udaipur,Ambamata,3 AM,Night,Yes,High
+India,Madhya Pradesh,Bhopal,Kolar Road,9 AM,Day,Yes,Medium
+India,Madhya Pradesh,Bhopal,MP Nagar,1 AM,Day,Yes,Medium
+India,Rajasthan,Udaipur,Hiran Magri,9 PM,Day,No,Low
+India,Maharashtra,Mumbai,Bandra,6 AM,Night,No,Medium
+India,Gujarat,Vadodara,Manjalpur,9 AM,Night,Yes,High
+India,Gujarat,Surat,Adajan,6 AM,Night,Yes,High
+India,Gujarat,Ahmedabad,Maninagar,12 PM,Night,No,Medium
+India,Maharashtra,Pune,Shivaji Nagar,11 PM,Night,Yes,High
+India,Gujarat,Vadodara,Alkapuri,12 PM,Day,No,Low
+India,Rajasthan,Udaipur,Ambamata,6 AM,Day,Yes,Medium
+India,Rajasthan,Jaipur,Vaishali Nagar,1 AM,Day,No,Low
+India,Madhya Pradesh,Indore,Rajendra Nagar,12 PM,Day,Yes,Medium
+India,Maharashtra,Pune,Hinjewadi,1 AM,Day,No,Low
+India,Madhya Pradesh,Indore,Palasia,3 PM,Night,No,Medium
+India,Maharashtra,Mumbai,Dadar,11 PM,Day,Yes,Medium
+India,Rajasthan,Udaipur,Fatehpura,9 AM,Night,No,Medium
+India,Rajasthan,Jaipur,Malviya Nagar,9 PM,Night,No,Medium
+India,Gujarat,Vadodara,Karelibaug,11 PM,Day,No,Low
+India,Madhya Pradesh,Bhopal,MP Nagar,9 AM,Night,Yes,High
+India,Madhya Pradesh,Bhopal,Kolar Road,6 PM,Day,No,Low
+India,Rajasthan,Udaipur,Fatehpura,3 AM,Day,No,Low
+India,Madhya Pradesh,Indore,Vijay Nagar,3 AM,Day,Yes,Medium
+India,Rajasthan,Jaipur,Mansarovar,12 PM,Day,Yes,Medium
+India,Rajasthan,Jaipur,Mansarovar,1 AM,Night,No,Medium
+India,Madhya Pradesh,Bhopal,Kolar Road,1 AM,Day,Yes,Medium
+India,Madhya Pradesh,Bhopal,Kolar Road,6 PM,Day,Yes,Medium
+India,Rajasthan,Udaipur,Fatehpura,6 PM,Night,No,Medium
+India,Gujarat,Ahmedabad,Satellite,9 AM,Night,Yes,High
+India,Madhya Pradesh,Indore,Rajendra Nagar,11 PM,Night,No,Medium
+India,Gujarat,Surat,Varachha,12 PM,Night,No,Medium
+India,Gujarat,Ahmedabad,Maninagar,11 PM,Night,Yes,High
+India,Madhya Pradesh,Bhopal,Kolar Road,3 PM,Night,Yes,High
+India,Gujarat,Ahmedabad,Bopal,11 PM,Night,No,Medium
+India,Rajasthan,Jaipur,Mansarovar,9 AM,Night,Yes,High
+India,Madhya Pradesh,Bhopal,Kolar Road,3 AM,Night,No,Medium
+India,Madhya Pradesh,Indore,Palasia,1 AM,Night,No,Medium
+India,Madhya Pradesh,Indore,Vijay Nagar,6 AM,Night,No,Medium
+India,Madhya Pradesh,Indore,Vijay Nagar,3 AM,Day,Yes,Medium
+India,Maharashtra,Pune,Wakad,3 PM,Day,No,Low
+India,Maharashtra,Mumbai,Bandra,12 PM,Day,No,Low
+India,Gujarat,Ahmedabad,Navrangpura,1 AM,Night,Yes,High
+India,Rajasthan,Udaipur,Hiran Magri,12 PM,Night,No,Medium
+India,Maharashtra,Pune,Wakad,9 PM,Day,Yes,Medium
+India,Gujarat,Ahmedabad,Bopal,9 PM,Day,Yes,Medium
+India,Maharashtra,Mumbai,Powai,9 PM,Day,No,Low
+India,Maharashtra,Mumbai,Andheri,9 AM,Day,No,Low
+India,Madhya Pradesh,Bhopal,MP Nagar,9 PM,Night,Yes,High
+India,Madhya Pradesh,Indore,Palasia,9 AM,Day,No,Low
+India,Maharashtra,Mumbai,Powai,12 PM,Night,No,Medium
+India,Gujarat,Vadodara,Karelibaug,9 PM,Day,Yes,Medium
+India,Gujarat,Vadodara,Fatehgunj,1 AM,Day,Yes,Medium
+India,Gujarat,Ahmedabad,Navrangpura,12 PM,Night,No,Medium
+India,Madhya Pradesh,Indore,Rajendra Nagar,6 PM,Day,Yes,Medium
+India,Maharashtra,Pune,Shivaji Nagar,11 PM,Day,Yes,Medium
+India,Gujarat,Surat,Varachha,9 AM,Day,Yes,Medium
+India,Gujarat,Ahmedabad,Maninagar,12 PM,Night,No,Medium
+India,Madhya Pradesh,Bhopal,Arera Colony,9 AM,Day,No,Low
+India,Madhya Pradesh,Bhopal,Kolar Road,6 PM,Day,No,Low
+India,Madhya Pradesh,Indore,Palasia,3 PM,Day,No,Low
+India,Rajasthan,Udaipur,Fatehpura,6 AM,Night,Yes,High
+India,Rajasthan,Udaipur,Hiran Magri,9 PM,Day,No,Low
+India,Gujarat,Surat,Katargam,3 AM,Night,No,Medium
+India,Maharashtra,Pune,Kothrud,6 PM,Day,Yes,Medium
+India,Madhya Pradesh,Bhopal,Kolar Road,12 PM,Day,No,Low
+India,Madhya Pradesh,Indore,Rajendra Nagar,1 AM,Day,Yes,Medium
+India,Rajasthan,Udaipur,Ambamata,11 PM,Night,Yes,High
+India,Madhya Pradesh,Bhopal,Arera Colony,6 AM,Day,No,Low
+India,Maharashtra,Mumbai,Bandra,12 PM,Day,No,Low
+India,Maharashtra,Pune,Hinjewadi,3 PM,Day,Yes,Medium
+India,Rajasthan,Udaipur,Hiran Magri,9 AM,Night,No,Medium
+India,Madhya Pradesh,Bhopal,Arera Colony,6 AM,Night,No,Medium
+India,Madhya Pradesh,Bhopal,MP Nagar,1 AM,Night,No,Medium
+India,Gujarat,Ahmedabad,Bopal,3 AM,Night,No,Medium
+India,Madhya Pradesh,Bhopal,MP Nagar,3 AM,Day,Yes,Medium
+India,Rajasthan,Jaipur,Malviya Nagar,6 PM,Night,Yes,High
+India,Madhya Pradesh,Indore,Vijay Nagar,11 PM,Night,Yes,High
+India,Maharashtra,Mumbai,Powai,9 AM,Day,Yes,Medium
+India,Rajasthan,Jaipur,Mansarovar,6 PM,Night,Yes,High
+India,Gujarat,Vadodara,Fatehgunj,1 AM,Day,Yes,Medium
+India,Rajasthan,Udaipur,Fatehpura,6 AM,Day,Yes,Medium
+India,Gujarat,Vadodara,Karelibaug,9 AM,Day,No,Low
+India,Maharashtra,Pune,Kothrud,11 PM,Night,No,Medium
+India,Maharashtra,Mumbai,Andheri,6 PM,Day,No,Low
+India,Maharashtra,Mumbai,Bandra,1 AM,Night,Yes,High
+India,Gujarat,Surat,Adajan,1 AM,Day,No,Low
+India,Madhya Pradesh,Bhopal,Arera Colony,6 AM,Day,Yes,Medium
+India,Madhya Pradesh,Bhopal,Arera Colony,6 PM,Night,Yes,High
+India,Maharashtra,Pune,Kothrud,9 PM,Night,Yes,High
+India,Gujarat,Ahmedabad,Bopal,9 PM,Day,Yes,Medium
+India,Rajasthan,Jaipur,Vaishali Nagar,9 AM,Night,No,Medium
+India,Gujarat,Vadodara,Alkapuri,3 AM,Day,No,Low
+India,Maharashtra,Pune,Shivaji Nagar,9 PM,Day,Yes,Medium
+India,Rajasthan,Udaipur,Ambamata,12 PM,Night,No,Medium
+India,Gujarat,Vadodara,Manjalpur,3 PM,Night,Yes,High
+India,Maharashtra,Mumbai,Andheri,9 PM,Night,Yes,High
+India,Maharashtra,Mumbai,Andheri,1 AM,Day,Yes,Medium
+India,Rajasthan,Jaipur,Malviya Nagar,1 AM,Night,No,Medium
+India,Rajasthan,Udaipur,Hiran Magri,1 AM,Night,Yes,High
+India,Gujarat,Ahmedabad,Bopal,6 PM,Day,Yes,Medium
+India,Gujarat,Vadodara,Karelibaug,1 AM,Night,Yes,High
+India,Gujarat,Surat,Katargam,9 PM,Night,Yes,High
+India,Rajasthan,Jaipur,Mansarovar,3 PM,Day,Yes,Medium
+India,Gujarat,Surat,Katargam,6 AM,Night,No,Medium
+India,Rajasthan,Udaipur,Ambamata,1 AM,Day,No,Low
+India,Maharashtra,Pune,Shivaji Nagar,1 AM,Night,No,Medium
+India,Madhya Pradesh,Indore,Palasia,9 PM,Day,Yes,Medium
+India,Gujarat,Ahmedabad,Navrangpura,6 AM,Night,No,Medium
+India,Gujarat,Vadodara,Karelibaug,1 AM,Day,Yes,Medium
+India,Rajasthan,Udaipur,Hiran Magri,1 AM,Night,No,Medium
+India,Gujarat,Vadodara,Karelibaug,6 PM,Night,No,Medium
+India,Rajasthan,Udaipur,Fatehpura,1 AM,Night,No,Medium
+India,Gujarat,Ahmedabad,Maninagar,1 AM,Day,No,Low
+India,Madhya Pradesh,Bhopal,Kolar Road,6 PM,Day,No,Low
+India,Rajasthan,Udaipur,Ambamata,12 PM,Night,No,Medium
+India,Gujarat,Vadodara,Manjalpur,6 AM,Day,No,Low
+India,Rajasthan,Udaipur,Hiran Magri,11 PM,Day,No,Low
+India,Maharashtra,Mumbai,Bandra,3 PM,Night,Yes,High
+India,Maharashtra,Pune,Kothrud,3 PM,Night,Yes,High
+India,Maharashtra,Mumbai,Andheri,3 PM,Day,Yes,Medium
+India,Gujarat,Ahmedabad,Maninagar,6 AM,Day,No,Low
+India,Madhya Pradesh,Bhopal,MP Nagar,6 PM,Day,No,Low
+India,Gujarat,Surat,Katargam,3 PM,Night,No,Medium
+India,Gujarat,Surat,Varachha,3 PM,Night,Yes,High
+India,Madhya Pradesh,Indore,Rajendra Nagar,6 AM,Night,No,Medium
+India,Madhya Pradesh,Indore,Vijay Nagar,3 PM,Day,No,Low
+India,Rajasthan,Udaipur,Ambamata,3 AM,Night,Yes,High
+India,Rajasthan,Udaipur,Ambamata,3 PM,Day,No,Low
+India,Maharashtra,Pune,Wakad,6 AM,Night,No,Medium
+India,Gujarat,Surat,Adajan,3 AM,Day,No,Low
+India,Rajasthan,Jaipur,Malviya Nagar,9 PM,Day,No,Low
+India,Rajasthan,Jaipur,Malviya Nagar,9 AM,Day,No,Low
+India,Maharashtra,Mumbai,Andheri,11 PM,Day,No,Low
+India,Rajasthan,Jaipur,Mansarovar,12 PM,Day,Yes,Medium
+India,Maharashtra,Mumbai,Dadar,6 AM,Day,Yes,Medium
+India,Maharashtra,Pune,Shivaji Nagar,6 AM,Night,Yes,High
+India,Madhya Pradesh,Bhopal,Arera Colony,6 AM,Night,Yes,High
+India,Gujarat,Vadodara,Fatehgunj,6 AM,Day,No,Low

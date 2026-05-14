@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Road Safety AI System</title>
+
+<link rel="stylesheet" href="../../css/style.css">
+
+<style>
+
+/* NAVBAR IMPROVEMENT */
+
+.navbar{
+position:sticky;
+top:0;
+background:linear-gradient(90deg,#0f172a,#1e293b);
+padding:15px 30px;
+display:flex;
+justify-content:center;
+gap:35px;
+box-shadow:0 4px 15px rgba(0,0,0,0.4);
+z-index:1000;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+font-size:16px;
+padding:8px 14px;
+border-radius:6px;
+transition:0.3s;
+}
+
+.navbar a:hover{
+background:#2563eb;
+transform:scale(1.05);
+}
+
+.navbar .active{
+background:#2563eb;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:70vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+background:
+linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+
+url("https://static.vecteezy.com/system/resources/thumbnails/071/781/272/small/car-accident-scene-firefighters-emts-police-respond-after-crash-photo.jpg");
+background-size:cover;
+background-position:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:46px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+max-width:600px;
+margin-bottom:25px;
+}
+
+/* FEATURES */
+
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:60px 40px;
+flex-wrap:wrap;
+background:#0f172a;
+}
+
+.feature-card{
+background:white;
+color:black;
+width:260px;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.feature-card:hover{
+transform:translateY(-8px);
+}
+
+.feature-card h3{
+color:#2563eb;
+margin-bottom:10px;
+}
+
+/* SYSTEM SECTION */
+
+.system{
+text-align:center;
+padding:60px 20px;
+background:#1e293b;
+color:white;
+}
+
+.system p{
+max-width:700px;
+margin:auto;
+margin-top:10px;
+line-height:1.6;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<a href="index.html">Home</a> <a href="predict.html">Predict Risk</a> <a href="safety.html">Safety Tips</a> <a href="prevention.html">Prevention</a> <a href="dashboard.html">Dashboard</a> <a href="alerts.html">High Risk Zones</a> <a href="about.html">About</a>
+
+</div>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<h1>🚦 Road Safety AI Platform</h1>
+
+<p>
+Predict accident risk and improve road safety using Artificial Intelligence and accident data analysis.
+</p>
+
+<a class="btn" href="predict.html">Predict Accident Risk</a> <a class="btn" href="dashboard.html">View Dashboard</a>
+
+</div>
+
+<!-- FEATURES -->
+
+<div class="features">
+
+<div class="feature-card">
+<h3>🤖 AI Risk Prediction</h3>
+<p>
+Analyze driving conditions and predict accident risk using machine learning techniques.
+</p>
+</div>
+
+<div class="feature-card">
+<h3>🛡 Road Safety Awareness</h3>
+<p>
+Learn important safety guidelines to reduce road accidents and improve driving behaviour.
+</p>
+</div>
+
+<div class="feature-card">
+<h3>📊 Accident Analytics</h3>
+<p>
+Visualize accident risk patterns using charts and statistical dashboards.
+</p>
+</div>
+
+</div>
+
+<!-- SYSTEM INFO -->
+
+<div class="system">
+
+<h2>How This System Helps Drivers</h2>
+
+<p>
+This AI-powered platform analyzes factors like time, rain, location, and traffic conditions to estimate accident risk levels.
+By identifying high-risk situations early, drivers can take preventive actions and improve road safety.
+</p>
+
+</div>
+
+<script src="../../js/script.js"></script>
+
+</body>
+
+</html>
